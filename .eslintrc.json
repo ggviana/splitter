@@ -1,0 +1,27 @@
+{
+    "extends": [
+        "standard"
+    ],
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": true,
+        "jest": true
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "artifacts": false,
+        "contract": false,
+        "assert": false,
+        "web3": false
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "no-unused-expressions": 0
+    }
+}
